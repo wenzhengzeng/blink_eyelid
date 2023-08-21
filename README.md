@@ -3,11 +3,15 @@
 
 <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Southern Medical University, <sup>3</sup>A*STAR, <sup>4</sup>University at Buffalo
 
-This repository contains the official implementation of the paper "Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild", which is accepted by [TIFS](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=10206). The manuscript is coming soon!
+### [Paper](https://wenzhengzeng.github.io/data/blink_eyelid_final.pdf)
+
+This repository contains the official implementation of the paper "Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild", which is accepted by [IEEE Transactions on Information Forensics and Security (TIFS)](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=10206).
 
 
 ## Introduction
+<div align="center">
 <img src="pictures/pipeline.png" width="95%"/>
+</div>
 
 Real-time eyeblink detection in the wild is a recently emerged challenging task that suffers from dramatic variations in face attribute, pose, illumination, camera view and distance, etc. One key issue is to well characterize eyelid’s intrinsic motion (i.e., approaching and departure between upper and lower eyelid) robustly, under unconstrained conditions. Towards this, a novel eyelid’s intrinsic motion-aware feature learning approach is proposed. Our proposition lies in 3 folds. First, the feature extractor is led to focus on informative eye region adaptively via introducing visual attention in a coarse-to-fine way, to guarantee robustness and fine-grained descriptive ability jointly. Then, 2 constraints are proposed to make feature learning be aware of eyelid’s intrinsic motion. Particularly, one concerns the fact that the inter-frame feature divergence within eyeblink processes should be greater than non-eyeblink ones to better reveal eyelid’s intrinsic motion. The other constraint minimizes the inter-frame feature divergence of non-eyeblink samples, to suppress motion clues due to head or camera movement, illumination change, etc. Meanwhile, concerning the high ambiguity between eyeblink and non-eyeblink samples, soft sample labels are acquired via self-knowledge distillation to conduct feature learning with finer supervision than the hard ones. The experiments verify that, our proposition is significantly superior to the state-of-the-art ones, and with real-time running efficiency. It is also of strong generalization capacity towards constrained conditions.
 
@@ -39,4 +43,16 @@ Here we provide a pre-processed version of [HUST-LEBW](https://drive.google.com/
 
 ## Citation
 
-Coming Soon.
+If you find our work useful in your research, please consider to cite our paper:
+```
+@ARTICLE{10207771,
+  author={Zeng, Wenzheng and Xiao, Yang and Hu, Guilei and Cao, Zhiguo and Wei, Sicheng and Fang, Zhiwen and Zhou, Joey Tianyi and Yuan, Junsong},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIFS.2023.3301728}}
+```
+
