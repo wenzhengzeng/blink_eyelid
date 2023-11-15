@@ -48,11 +48,12 @@ If you find our work useful in your research, please consider to cite our paper:
 @ARTICLE{10207771,
   author={Zeng, Wenzheng and Xiao, Yang and Hu, Guilei and Cao, Zhiguo and Wei, Sicheng and Fang, Zhiwen and Zhou, Joey Tianyi and Yuan, Junsong},
   journal={IEEE Transactions on Information Forensics and Security}, 
-  title={Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild}, 
+  title={Eyelid’s Intrinsic Motion-Aware Feature Learning for Real-Time Eyeblink Detection in the Wild}, 
   year={2023},
-  volume={},
+  volume={18},
   number={},
-  pages={1-1},
+  pages={5109-5121},
   doi={10.1109/TIFS.2023.3301728}}
+
 ```
 
