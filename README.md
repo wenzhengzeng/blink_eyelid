@@ -1,11 +1,42 @@
-# Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild [TIFS 2023]
-[Wenzheng Zeng](https://wenzhengzeng.github.io/)<sup>1</sup>, [Yang Xiao](https://scholar.google.com/citations?user=NeKBuXEAAAAJ)<sup>1†</sup>, GuileiHu<sup>1</sup>, [Zhiguo Cao](https://scholar.google.com/citations?user=396o2BAAAAAJ)<sup>1</sup>, Sicheng Wei<sup>1</sup>, [Zhiwen Fang](https://scholar.google.com/citations?user=UX5N_FQAAAAJ)<sup>2</sup>, [Joey Tianyi Zhou](https://joeyzhouty.github.io/)<sup>3</sup>, [Junsong Yuan](https://cse.buffalo.edu/~jsyuan/)<sup>4</sup>
 
-<sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Southern Medical University, <sup>3</sup>A*STAR, <sup>4</sup>University at Buffalo
 
-### [Paper](https://wenzhengzeng.github.io/data/blink_eyelid_final.pdf)
+
+
+
+<p align="center">
+  <h1 align="center">Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild</h1>
+  <p align="center">
+    <a href="https://wenzhengzeng.github.io/">Wenzheng Zeng</a><sup>1</sup>,
+<!--     · -->
+    <a href="https://scholar.google.com/citations?user=NeKBuXEAAAAJ">Yang Xiao</a><sup>1</sup>,
+<!--     · -->
+   <a>Guilei Hu</a><sup>1</sup>,
+<!--     · -->
+    <a href="https://scholar.google.com/citations?user=396o2BAAAAAJ">Zhiguo Cao</a><sup>1</sup>,
+<!--     · -->
+    Sicheng Wei<sup>1</sup>,
+<!--     · -->
+    <a href="https://scholar.google.com/citations?user=UX5N_FQAAAAJ">Zhiwen Fang</a><sup>2</sup>,
+<!--     · -->
+    <a href="https://joeyzhouty.github.io/">Joey Tianyi Zhou</a><sup>3</sup>
+<!--     · -->
+   <a href="https://cse.buffalo.edu/~jsyuan/">Junsong Yuan</a><sup>4</sup>
+    
+  </p>
+  <p align="center"><sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Southern Medical University, <sup>3</sup>A*STAR, <sup>4</sup>University at Buffalo </p>
+  <h3 align="center">TIFS 2023</h3>
+
+  <h3 align="center"> <a href="https:///wenzhengzeng.github.io/data/blink_eyelid_final.pdf">Paper</a> </h3>
+    <h3 align="center"> <a href="paperswithcode.com/sota/eyeblink-detection-on-hust-lebw?p=eyelids-intrinsic-motion-aware-feature">
+  <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eyelids-intrinsic-motion-aware-feature/eyeblink-detection-on-hust-lebw" alt="PWC">
+</a> </h3>
+  <div align="center"></div>
+</p>
+
 
 This repository contains the official implementation of the paper "Eyelid’s Intrinsic Motion-aware Feature Learning for Real-time Eyeblink Detection in the Wild", which is accepted by [IEEE Transactions on Information Forensics and Security (TIFS)](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=10206).
+
+
 
 
 ## Introduction
